@@ -1,0 +1,44 @@
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 12pt;
+}
+
+
+@media print {
+  table {
+  }
+
+  .hide-print-mode {
+    display: none;
+  }
+}
+
+@page {
+  margin: 0.25cm 0;
+}
+
+.hidden {
+  display: none;
+}
+.order-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 21cm;
+}
+.order {
+  width: 33.333%;
+  height: 3.98cm;
+  margin-right: 0;
+  margin-bottom: 0.25cm;
+}
+
+.model-image-container {
+  float: right;
+  margin-right: 20px;
+  width: 32px;
+}
+.model-image {
+  float: right;
+  width: 16px;
+  height: 16px;
+}
