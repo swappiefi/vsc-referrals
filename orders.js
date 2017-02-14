@@ -95,9 +95,7 @@ function getModel(item) {
   }
   else {
     var itemName = item.line_items[0].name.toLowerCase()
-    if (itemName.indexOf("the king") >= 0)
-      return "king"
-    else if (itemName.indexOf("the viking") >= 0)
+    if (itemName.indexOf("the viking") >= 0)
       return "viking"
     else if (itemName.indexOf("the guard") >= 0)
       return "guard"
